@@ -26,17 +26,50 @@ body{
     text-align: center;
     margin-bottom: 30px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 
+.container .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.container .sidebar ul li:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+
 .container .sidebar ul li a {
     color: white;
-    text-transform: uppercase;
-    font-style: initial;
-    margin-bottom: 10px;
+    font-size:large;
+    font-family: sans-serif;
+   
 }
 
 .container .sidebar h2:hover{
     color: bisque;
+}
+
+.container .sidebar .contact{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    left: 50px;
+
+}
+.container .sidebar .contact a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+.container .sidebar .contact a:hover{
+    background-color:rgb(234, 223, 206);
+    transition: 0.5s;
 }
