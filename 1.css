@@ -11,7 +11,7 @@
   }
   [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "icon";
-    font-style: normal;
+    font-style:normal;
     font-weight: normal;
     speak: never;
     display: inline-block;
@@ -26,12 +26,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: black;
+    margin-bottom: 30px;
+    
   }
   
-  .icon-home:before { content: '\e800'; } /* 'î €' */
-  .icon-person:before { content: '\e801'; } /* 'î ' */
-  .icon-id:before { content: '\e803'; } /* 'î ƒ' */
-  .icon-network:before { content: '\e804'; } /* 'î „' */
-  .icon-blog:before { content: '\e805'; } /* 'î …' */
-  .icon-contact:before { content: '\e806'; } /* 'î †' */
-  .icon-location:before { content: '\e807'; } /* 'î ‡' */
+  .icon-home:before { content: '\e800'; } 
+  .icon-person:before { content: '\e801'; } 
+  .icon-id:before { content: '\e803'; } 
+  .icon-network:before { content: '\e804'; } 
+  .icon-blog:before { content: '\e805'; }
+  .icon-contact:before { content: '\e806'; } 
+  .icon-location:before { content: '\e807'; } 
