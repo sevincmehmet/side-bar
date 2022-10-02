@@ -73,3 +73,21 @@ body{
     background-color:rgb(234, 223, 206);
     transition: 0.5s;
 }
+
+.container .main-header .header{
+    padding: 20px;
+    background-color: white;
+    color: rgb(221, 187, 146);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.container .main-header {
+    margin-left: 200px;
+}
+
+.container .main-header .nav{
+    margin: 20px;
+    color: rgb(154, 71, 71);
+    line-height: 30px;
+}
