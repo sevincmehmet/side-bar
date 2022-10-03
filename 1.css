@@ -25,7 +25,7 @@
     margin-left: 10px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: black;
+    color:  rgb(192, 115, 64);
     
     
   }
@@ -65,7 +65,7 @@
     margin-left: .2em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
+    
   }
   
   .icon-instagram:before { content: '\e809'; } 
